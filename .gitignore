@@ -169,3 +169,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+pookie-chatbot/
+custom_tokenizer.json
+.DS_Store
