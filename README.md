@@ -11,6 +11,8 @@ Welcome to the **Pookie Chatbot Project**, where magic happens! ✨ The goal? To
 - Create a chatbot that feels like it’s stealing your heart with every response. 💖
 - Fine-tune GPT-2 to handle multi-turn conversations with finesse. 🧠
 - Achieve a loss value of approximately **1.5** through dedication and a little bit of magic. ✨
+- **⚠️ All of this (running, training) should be achievable on a laptop (eg. M1) with decent performance. This is a key requirement and must not be compromised!** 🔥💻
+  - For this reason, we are using the GPT-2 model, which has a manageable size and resource requirement compared to larger models like GPT-3 or GPT-4.
 
 ---
 
@@ -84,5 +86,14 @@ Follow this smooth, seductive workflow to get your chatbot grooving:
 
 ## 🔮 Additional Notes
 
-- If you have any suggestions for improvements or find any issue pleause open a pull request
-- On the other hand if you had a fun time using this code please do star the repo and spread some love 🫶
+- If you have any suggestions for improvements or find any issues, please open a pull request. 💡
+- On the other hand, if you had a fun time using this code, please ⭐ the repo and spread some love. 🫶
+
+---
+
+## 👨‍💻 Author
+
+**Vuka951**
+[GitHub Profile](https://github.com/Vuka951)
+
+Feel free to reach out with any questions, feedback, or love for Pookie! 💕
