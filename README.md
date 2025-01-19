@@ -10,7 +10,7 @@ Welcome to the **Pookie Chatbot Project**, where magic happens! ✨ The goal? To
 
 - Create a chatbot that feels like it’s stealing your heart with every response. 💖
 - Fine-tune GPT-2 to handle multi-turn conversations with finesse. 🧠
-- Achieve a loss value of approximately **2.0** through dedication and a little bit of magic. ✨
+- Achieve a loss value of approximately **1.5** through dedication and a little bit of magic. ✨
 
 ---
 
@@ -30,7 +30,7 @@ Here’s the treasure map to our files, because organization is sexy:
 - **Purpose**: Fine-tune the GPT-2 model to perfection. 💪
 - **Key Steps**:
   - Loads the custom tokenizer and dataset. 📚
-  - Sets up training configurations (think batch size, learning rate, and other spicy details). 🌶️
+  - Sets up training configurations (think batch size, learning rate, and other spicy details), the configuration are setup for slight overfitting 🌶️
   - Trains the model for multiple epochs (10 or more for best results since we have a small dataset). 🔄
   - Saves the fine-tuned model and tokenizer in the `pookie-chatbot` directory. 🏦
   - Cleans up intermediate checkpoints because clutter isn’t cute and takes up too much space. 🧹
@@ -74,7 +74,7 @@ Follow this smooth, seductive workflow to get your chatbot grooving:
 2. **Training**
 
    - Run `train_pookie.py` to fine-tune your model. 🏋️‍♂️
-   - Repeat training **10 or more times** to achieve that sweet spot of a loss around **2.0**. The more you train, the better it gets (just like flirting). 😘
+   - Repeat training **10 or more times** to achieve that sweet spot of a loss around **1.5**. The more you train, the better it gets (just like flirting). 😘
 
 3. **Testing the Chatbot**
    - Once fine-tuned, run `run_pookie_chatbot.py` to test your chatbot in an interactive session. 🎭

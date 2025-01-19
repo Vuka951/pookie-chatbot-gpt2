@@ -20,8 +20,8 @@ OUTPUT_DIR = "./pookie-chatbot"      # output directory for fine-tuned model, us
 
 BATCH_SIZE = 2           # keeping small to not run out of memory
 EPOCHS = 10              # Needs to be high with small datasets
-WARMUP_STEPS = 100
-LEARNING_RATE = 2e-5
+WARMUP_STEPS = 0         # No warmup to start with high learning rate
+LEARNING_RATE = 5e-5     # Higher learning rate for faster memorization
 BLOCK_SIZE = 512         # Needs to be this or even samller to ot run out of memory
 
 # Check for MPS (Metal) on Mac, else CPU
@@ -118,7 +118,7 @@ def main():
         logging_strategy="epoch",       # log once per epoch
         warmup_steps=WARMUP_STEPS,
         learning_rate=LEARNING_RATE,
-        weight_decay=0.01,
+        weight_decay=0.00,
         eval_strategy="no",       # or "epoch" if you have eval data
         do_train=True,
         do_eval=False,
